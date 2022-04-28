@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class=""><video class="video-hero-container" poster="https://assets.digitalhouse.com/pg/prod/backgrounds/login-bg-desktop.jpg" autoplay loop src="https://assets.digitalhouse.com/pg/prod/animation/login-video.mp4"></video>
+    </div>
+    <section class="form-section">
+      <h1>Chek-point I</h1>
+
+      <div class="form-wrapper">
+        <form action="">
+          <div class="input-block">
+            <label for="titulo"></label>
+            <input type="text" id="titulo" placeholder="Título do card"/>
+          </div>
+          <div class="input-block">
+            <label for="descricao"></label>
+            <input type="text" id="descricao" placeholder="Descrição"/>
+          </div>
+          <div class="input-block">
+            <label for="urlImagem"></label>
+            <input type="url" id="urlImagem" placeholder="Endereço imagem"/>
+          </div>
+          <button type="submit" class="btn-submit" onclick="capturar()" >criar</button>
+        </form>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row" id="conteudo">
+        <!-- Os itens serão adicionados dentro desse elemento -->
+      </div>
+    </div>
+    <script src="/js/main.js" type="module"></script>
+
+  </body>
+</html>
